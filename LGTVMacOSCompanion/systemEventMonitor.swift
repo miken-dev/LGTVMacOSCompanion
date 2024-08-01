@@ -10,16 +10,15 @@ import Foundation
 
 let notificationCenter = NSWorkspace.shared.notificationCenter
 
-func addObservers() {
-	notificationCenter.addObserver(self,
-								   selector: #selector(systemDidWake),
-								   name: NSWorkspace.didWakeNotification,
-								   object: nil
-	)
+	private func stopObservers() {
+		NotificationCenter.default.removeObserver(self)
+		NSWorkspace.shared.notificationCenter.removeObserver(self)
+		DistributedNotificationCenter.default().removeObserver(self)
+	}
 	
-	notificationCenter.addObserver(self,
-								   selector: #selector(systemWillSleep),
-								   name: NSWorkspace.willSleepNotification,
-								   object: nil)
-	
+	func restartObservers() {
+		stopObservers()
+		startObservers()
+		print("Observers restarted")
+	}
 }
