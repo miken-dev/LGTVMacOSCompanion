@@ -18,7 +18,7 @@ Written in Swift & SwiftUI
 - [ ] Set the LG TV to the appropriate HDMI input
 - [ ] Set the HDMI input icon to 'PC' (allegedly helps with latency and processing on some versions of WebOS)
 #### MacBook specific features:
- - Both of these make sure your LG TV won't be turning on and off every time you open or close your laptop if it's not plugged into the display/dock
+Both of these make sure your LG TV won't be turning on and off every time you open or close your laptop if it's not plugged into the display/dock
 - [ ] Have the app work conditionally based on plugged in USB Devices
 - [ ] Have the app work conditionally based on plugged in displays
 
