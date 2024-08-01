@@ -25,3 +25,4 @@ Both of these make sure your LG TV won't be turning on and off every time you op
 ## Credits
 [LGTVCompanion](https://github.com/JPersson77/LGTVCompanion) by JPersson77
 [LGTVLinuxCompanion](https://github.com/cali-95/LGTVLinuxCompanion) by cali-95
+Paul Hudson at [HackingWithSwift.com](HackingWithSwift.com)
