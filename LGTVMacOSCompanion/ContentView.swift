@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+	var systemEventMonitor = SystemEventMonitor()
     var body: some View {
 		VStack {
 			Button("Start Observers") {
