@@ -20,6 +20,7 @@
 		0CC843D92C5B4B49003EE951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CC843DC2C5B4B49003EE951 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0CC843DE2C5B4B49003EE951 /* LGTVMacOSCompanion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LGTVMacOSCompanion.entitlements; sourceTree = "<group>"; };
+		0CC843E42C5B4F7A003EE951 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +37,7 @@
 		0CC843C92C5B4B48003EE951 = {
 			isa = PBXGroup;
 			children = (
+				0CC843E42C5B4F7A003EE951 /* README.md */,
 				0CC843D42C5B4B49003EE951 /* LGTVMacOSCompanion */,
 				0CC843D32C5B4B49003EE951 /* Products */,
 			);

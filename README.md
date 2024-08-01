@@ -1,8 +1,11 @@
 # LGTV MacOS Companion
 ## Description
 A macOS app to sync the power state of an LG WebOS TV with your Mac.
+
 Inspired by the amazing [LGTVCompanion](https://github.com/JPersson77/LGTVCompanion) by JPersson77
+
 This is an early beta, use at your own risk.
+
 Written in Swift & SwiftUI
 
 ## Features
