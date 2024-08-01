@@ -13,7 +13,7 @@ Written in Swift & SwiftUI
 ## Features
 ### In progress:
 #### Basic Features:
-- [ ] Detect sleep, wake, restart, and power off states of your mac
+- [ ] Detect sleep, wake, restart, and power off states of your mac - *in progress*
 - [ ] Set the LG TV to the appropriate power state
 - [ ] Set the LG TV to the appropriate HDMI input
 - [ ] Set the HDMI input icon to 'PC' (allegedly helps with latency and processing on some versions of WebOS)
