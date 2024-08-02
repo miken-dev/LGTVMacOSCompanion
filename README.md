@@ -13,8 +13,9 @@ Written in Swift with SwiftUI and AppKit
 ## Features
 ### In progress:
 #### Basic Features:
-- [x] Scan the network to detect webOS TVs
+- [ ] Scan the network to detect webOS TVs
 - [x] Detect system sleep
+- [x] Detect system wake
 - [ ] Detect system restart - *in progress*
 - [ ] Detect system power down - *in progress*
 - [ ] Set the LG TV to the appropriate power state
