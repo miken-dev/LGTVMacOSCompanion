@@ -8,11 +8,12 @@ And thank you to [LGTVLinuxCompanion](https://github.com/cali-95/LGTVLinuxCompan
 
 This is an early beta, use at your own risk.
 
-Written in Swift & SwiftUI
+Written in Swift with SwiftUI and AppKit
 
 ## Features
 ### In progress:
 #### Basic Features:
+- [ ] Scan the network to detect webOS TVs
 - [ ] Detect sleep, wake, restart, and power off states of your mac - *in progress*
 - [ ] Set the LG TV to the appropriate power state
 - [ ] Set the LG TV to the appropriate HDMI input
@@ -24,5 +25,7 @@ Both of these make sure your LG TV won't turn on and off every time you open or 
 
 ## Special thanks to:
 [LGTVCompanion](https://github.com/JPersson77/LGTVCompanion) by JPersson77
+
 [LGTVLinuxCompanion](https://github.com/cali-95/LGTVLinuxCompanion) by cali-95
+
 Paul Hudson at [HackingWithSwift.com](HackingWithSwift.com)
