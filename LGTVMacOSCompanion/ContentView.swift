@@ -24,6 +24,7 @@ struct ContentView: View {
 			}
 			Group {
 				Text("LGTV Controls")
+				Button("Get client-key: \(clientKey)") { }
 				Button("Turn on LGTV (WoL Packet)") { }
 				Button("Turn off LGTV") { }
 				Button("Set TV to HDMI 2") { }
