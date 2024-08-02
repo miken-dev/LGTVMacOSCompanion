@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+	@State private var clientKey = "No Key Found"
+	
 	var systemEventMonitor = SystemEventMonitor()
     var body: some View {
 		VStack(alignment: .leading) {
