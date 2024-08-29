@@ -13,7 +13,7 @@ struct ContentView: View {
 	var systemEventMonitor = SystemEventMonitor()
     var body: some View {
 		VStack(alignment: .leading) {
-			Text("Development testing")
+			Text("Dev testing")
 				.font(.title)
 			Group {
 				Text("Observers")
