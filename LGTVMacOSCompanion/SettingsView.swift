@@ -9,7 +9,28 @@ import SwiftUI
 
 struct SettingsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		NavigationView {
+			List {
+				NavigationLink(destination: {
+					Text("TV settings screen t/c")
+				}, label: {
+					Label("TVs", systemImage: "tv")
+				})
+				
+				NavigationLink(destination: {
+					Text("Device Detection settings screen t/c")
+				}, label: {
+					Label("Device Detection", systemImage: "cable.connector")
+				})
+				
+				NavigationLink(destination: {
+					Text("Network settings screen t/c")
+				}, label: {
+					Label("Network", systemImage: "network")
+				})
+			}
+			.listStyle(.sidebar)
+		}
     }
 }
 
