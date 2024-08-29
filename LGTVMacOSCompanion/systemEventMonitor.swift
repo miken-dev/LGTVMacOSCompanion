@@ -25,10 +25,27 @@ class SystemEventMonitor {
 		
 	}
 	func applicationDidFinishLaunching(_ aNotification: Notification) {
-		NSWorkspace.shared.notificationCenter.addObserver(self, selector: #selector(sleepListener(_:)),
-														  name: NSWorkspace.willSleepNotification, object: nil)
-		NSWorkspace.shared.notificationCenter.addObserver(self, selector: #selector(sleepListener(_:)),
-														  name: NSWorkspace.didWakeNotification, object: nil)
+		// Sleep listener
+		NSWorkspace.shared.notificationCenter.addObserver(
+			self,
+			selector: #selector(sleepListener(_:)),
+			name: NSWorkspace.willSleepNotification,
+			object: nil
+		)
+		// Wake listener
+		NSWorkspace.shared.notificationCenter.addObserver(
+			self, 
+			selector: #selector(sleepListener(_:)),
+			name: NSWorkspace.didWakeNotification,
+			object: nil
+		)
+		NSWorkspace.shared.notificationCenter.addObserver(
+			self,
+			selector: #selector(sleepListener(_:)),
+			name: NSWorkspace.willPowerOffNotification,
+			object: nil
+		)
+		// TODO: Implement login detection
 	}
 	
 	
