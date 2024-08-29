@@ -55,6 +55,8 @@ class SystemEventMonitor {
 			print("Going to sleep at \(Date.now.formatted(date: .abbreviated, time: .complete))")
 		} else if Notification.name == NSWorkspace.didWakeNotification {
 			print("Woke up at \(Date.now.formatted(date: .abbreviated, time: .complete))")
+		} else if Notification.name == NSWorkspace.willPowerOffNotification {
+			print("Power Off at \(Date.now.formatted(date: .abbreviated, time: .complete))")
 		} else {
 			print("Some other event other than the first two")
 		}
