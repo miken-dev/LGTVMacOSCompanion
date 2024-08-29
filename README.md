@@ -13,11 +13,12 @@ Written in Swift with SwiftUI and AppKit
 ## Features
 ### In progress:
 #### Basic Features:
-- [ ] Scan the network to detect webOS TVs
 - [x] Detect system sleep
 - [x] Detect system wake
 - [ ] Detect system restart - *in progress*
 - [ ] Detect system power down - *in progress*
+- [ ] Scan the network to detect webOS TVs
+= [ ] Automatically get the webOS client-key
 - [ ] Set the LG TV to the appropriate power state
 - [ ] Set the LG TV to the appropriate HDMI input
 - [ ] Set the HDMI input icon to 'PC' (allegedly helps with latency and processing on some versions of WebOS)
